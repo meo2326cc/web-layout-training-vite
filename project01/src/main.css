@@ -1,0 +1,36 @@
+.heroHeight{
+    height: 80vh;
+}
+.picFit{
+    object-fit: cover;
+    object-position: center;
+}
+
+.title{
+    position: absolute;
+    z-index: 10;
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 2px 2px #474747;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: #32323283;
+    padding: 2em;
+
+
+}
+
+h2{
+    font-size: 4em;
+}
+
+p{
+    font-size: 1.3em;
+}
+
+.mainPic{
+    max-width: 100%;
+}
+
+.board{
+    background-color: #b4cdf0;
+}
